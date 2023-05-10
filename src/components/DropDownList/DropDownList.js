@@ -1,6 +1,5 @@
 import React from "react";
 
-//компонент выпадающего списка (date, nationality)
 function DropDownList({
   nameSelect,
   value,

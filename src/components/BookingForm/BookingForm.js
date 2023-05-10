@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import FormList from "../FormList/FormList";
 import FormLine from "../FormLine/FormLine";
-import FormComponent from "../FormComponent/FormComponent";
 import DropDownList from "../DropDownList/DropDownList";
 import { DatePicker, TimePicker, Space } from "antd";
 import range from "lodash.range";
