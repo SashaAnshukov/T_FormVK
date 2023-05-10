@@ -1,0 +1,6 @@
+.FormLine__info {
+  display: grid;
+  grid-template-columns: repeat(1, 466px);
+  column-gap: 13px;
+  row-gap: 4.9px;
+}

@@ -1,0 +1,16 @@
+.FormComponent__input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  color: #808185;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

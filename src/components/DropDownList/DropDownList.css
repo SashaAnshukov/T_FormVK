@@ -1,0 +1,31 @@
+.DropDownList {
+  display: flex;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  color: #808185;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  min-height: 32px;
+  padding: 7.5px 15px 7.5px 8px;
+  border: 1px solid #d9d9d9;
+  transition: border 0.2s, box-shadow 0.2s;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  resize: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.DropDownList:focus {
+  border-color: #4096ff;
+  border-inline-end-width: 1px;
+  box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+  outline: 0;
+}
